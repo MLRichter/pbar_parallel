@@ -10,7 +10,7 @@ setup(
     version="0.0.3",
     description="Provides a Wrapper arround joblibs Parallel object for displaying a progress bar",
     long_description=long_description,
-    long_description_content="text/markdown",
+    long_description_content_type="text/markdown",
     py_modules=["pbar_parallel"],
     package_dir={"": "src"},
     classifiers=[
