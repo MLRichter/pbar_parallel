@@ -1,11 +1,16 @@
 from setuptools import setup
 
+with open("README.md", "r") as fp:
+    long_description = fp.read()
+
 setup(
     name="pbar-parallel",
     author="Mats L. Richter",
     author_email="matrichter@uos.de",
-    version="0.0.1",
+    version="0.0.3",
     description="Provides a Wrapper arround joblibs Parallel object for displaying a progress bar",
+    long_description=long_description,
+    long_description_content="text/markdown",
     py_modules=["pbar_parallel"],
     package_dir={"": "src"},
     classifiers=[
